@@ -23,6 +23,7 @@ bzl_library(
         "@rules_nixpkgs_posix//:posix",
         "@rules_nixpkgs_python//:python",
         "@rules_nixpkgs_rust//:rust",
+        "@rules_nixpkgs_nodejs//:nodejs",
     ],
 )
 
