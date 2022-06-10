@@ -57,6 +57,7 @@ def rules_nixpkgs_dependencies(rules_nixpkgs_name = "io_tweag_rules_nixpkgs"):
         ("rules_nixpkgs_go", "toolchains/go"),
         ("rules_nixpkgs_rust", "toolchains/rust"),
         ("rules_nixpkgs_posix", "toolchains/posix"),
+        ("rules_nixpkgs_nodejs", "toolchains/nodejs"),
     ]:
         # case analysis in inner loop to reduce code duplication
         if kind == "local_repository":
